@@ -26,6 +26,12 @@ header{
     top: 0;
 }
 
+#top{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
 .name{
      margin-top: 30px;
     margin: 10;
@@ -59,6 +65,11 @@ nav{
 .nav-link{
     padding-left:30px ;
     font-size: 25px;
+}
+
+#ord {
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
@@ -164,6 +175,24 @@ footer
         margin: 20px;
         float: left;
         margin-top: 20px;
+    }
+
+    #top{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    #ord {
+    display: block;
+    .tablic{
+        order: 0;
+    }
+    #center{
+        order: 0;
+    }
     }
 
     .link{
