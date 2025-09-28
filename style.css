@@ -19,6 +19,16 @@ body{
     margin: 0;
 }
 
+#center{
+        
+        width: 100%;
+        margin: auto;
+        background-color: #00a2ff;
+        margin-bottom: 25px;
+        margin-top: 500px; 
+        order: 1;
+    }
+
 header{
     position: relative;
     background-color: #00a2ff;
