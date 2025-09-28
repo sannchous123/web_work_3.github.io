@@ -33,21 +33,6 @@ header{
     height: 500px;
     margin: 50px;
     float: left;
-    animation: log 4s ;
-}
-
-@keyframes log{
-    0%{
-        transform: rotate(0deg) scale(1);
-    }
-    50%{
-        transform: rotate(360deg) scale(1);
-        margin-left: 50%;
-        margin-top:100px;
-    }
-    100%{
-        transform: rotate(720deg) scale(10);
-    }
 }
 
 nav{
