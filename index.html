@@ -34,7 +34,8 @@
 		<nav class="vertical-nav">
     <a href="index.html" class="nav-link"> Главная страница</a>
     <a href="about.html" class="nav-link">Внутренняя страница</a>
-    <a href="https://kubsu.ru/" class="nav-link">КубГу</a>
+    <a href="#tab" class="nav-link">Таблица</a>
+	<a href="#form" class="nav-link">Форма</a>
     
 	</nav>
 	</div>
@@ -49,7 +50,9 @@
 	}
 	</style>
 	</header>
-	<div id="center">
+	 <div id="center">
+	
+		<div id="order">
         <h1>
             Главная страница
         </h1>
@@ -100,7 +103,7 @@
         <img src = https://avatars.mds.yandex.net/i?id=520cb39eb89b65c49f32831a57a8f418ea2c9703-11416510-images-thumbs&n=13 width="500" color ="red" count = "20">
         <img src = https://avatars.mds.yandex.net/i?id=fa1f027eac2ad2757040452f2c661253350ff87a-4497589-images-thumbs&n=13 width="500" color ="redwhite" count = "5">
         
-    </section>
+     </section>
 
     <section id ="cars">
         <h2> 
@@ -112,8 +115,11 @@
         <img src = https://avatars.mds.yandex.net/i?id=9a0fd91f4c2ae27fa545b67abfee9dffdce4f693-9181395-images-thumbs&n=13 width="500" color ="red" year = "1980">
         
     </section>
-	</div>
-
+		</div>
+		
+	
+	 <section id ="tab">
+	
 	<table class = "tablic">
 		<tr class = chet>
 			<th>Первый</th>
@@ -122,16 +128,14 @@
 			<th>Четвертый</th>
 		</tr>
 		<tr>
-			<td>П</td>
+			<td rowspan="2">П</td>
 			<td>У</td>
 			<td>П</td>
 			<td>У</td>
 		</tr>
 		<tr class = chet>
 			<td>П</td>
-			<td>У</td>
-			<td>П</td>
-			<td>У</td>
+			<td colspan="2">У</td>
 		</tr>
 		<tr>
 			<td>П</td>
@@ -164,9 +168,9 @@
 			<td>У</td>
 		</tr>
 	</table>
-
-
-
+	</section>
+	</div>
+	<section id ="form">
     <form action="" method="POST">
 		<h3>Форма</h3>
 		<label>
@@ -218,7 +222,7 @@
 		</label>
 		<input type="submit" value="Сохранить" />
 	</form>
-	
+	</section>
 	<footer>
 		(с) Олександр Чил
 	</footer>
@@ -228,4 +232,8 @@
 
 
 </html>
+
+</div>
+
+
 </div>
